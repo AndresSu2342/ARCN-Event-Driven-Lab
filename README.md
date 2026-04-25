@@ -13,7 +13,7 @@ Este repositorio contiene la solución al laboratorio de creación de microservi
 3. ✅ **Creación del Consumer-Service** con el `RabbitListener` para procesar mensajes.
 4. ✅ **Construcción y publicación de Imágenes** a Docker Hub (`andressu2342/producerservice` y `andressu2342/consumerservice`).
 5. ✅ **Orquestación con Docker Compose**, creando la red y el entorno (`docker-compose.yml`).
-6. ⏳ **Ejecución y Pruebas** (Instrucciones abajo).
+6. ✅ **Ejecución y Pruebas** (Instrucciones abajo).
 
 ---
 
@@ -31,9 +31,9 @@ Dado que tienes todo configurado localmente en tu máquina con Docker Desktop, p
    docker compose ps
    ```
 
-## 📸 Evidencias del Laboratorio (Pantallazos a tomar)
+## 📸 Evidencias del Laboratorio
 
-Para demostrar que has completado el laboratorio exitosamente, te recomiendo tomar los siguientes **4 pantallazos**:
+A continuación se presentan las evidencias de la correcta ejecución de los microservicios y el flujo de comunicación a través de RabbitMQ:
 
 ### 1. Evidencia de Contenedores Corriendo
 
