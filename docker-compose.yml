@@ -21,7 +21,7 @@ services:
 
   # Servicio Productor
   producer:
-    image: <tudockerhubusername>/producer-service
+    image: andressu2342/producerservice
     container_name: producer-service
     ports:
       - "8080:8080" # Expone el puerto del API REST del productor
@@ -41,7 +41,7 @@ services:
 
   # Servicio Consumidor
   consumer:
-    image: <tudockerhubusername>/consumer-service
+    image: andressu2342/consumerservice
     container_name: consumer-service
     depends_on:
       - rabbitmq
